@@ -44,7 +44,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].each do |holidays, supplies|
     winter_arr << [holidays][supplies]
   end
-  winter_arr.merge
+  winter_arr
 end
     
 
