@@ -62,7 +62,8 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.map do |holiday,supplies| 
       holiday if supplies.include?("BBQ")
      end
-  end.flatten.compact
+  end
+  holiday.flatten.compact
 end
 
 
